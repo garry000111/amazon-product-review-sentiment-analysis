@@ -177,9 +177,3 @@ The trained Logistic Regression model was deployed using Streamlit.
 * Real-time review monitoring
 
 ---
-
-## Author
-
-**Gaurav Khambat**
-
-Computer Science Student | Machine Learning Enthusiast

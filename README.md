@@ -94,24 +94,29 @@ Want to run this project locally? Follow these steps:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/AmazonSentimentAnalysis.git](https://github.com/yourusername/AmazonSentimentAnalysis.git)
+git clone https://github.com/yourusername/AmazonSentimentAnalysis.git
 cd AmazonSentimentAnalysis
+```
 
 ### 2. Create a virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
-### 3.Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-### 4.Run the Streamlit App
+### 4. Run the Streamlit App
 ```bash
 streamlit run app/streamlit_app.py
+```
 
 ## 📁 Project Structure
 
+```text
 AmazonSentimentAnalysis/
 │
 ├── app/
@@ -128,3 +133,4 @@ AmazonSentimentAnalysis/
 │
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
+```

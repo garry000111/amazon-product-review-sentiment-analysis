@@ -96,3 +96,35 @@ Want to run this project locally? Follow these steps:
 ```bash
 git clone [https://github.com/yourusername/AmazonSentimentAnalysis.git](https://github.com/yourusername/AmazonSentimentAnalysis.git)
 cd AmazonSentimentAnalysis
+
+### 2. Create a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+### 3.Install dependencies
+```bash
+pip install -r requirements.txt
+
+### 4.Run the Streamlit App
+```bash
+streamlit run app/streamlit_app.py
+
+## 📁 Project Structure
+
+AmazonSentimentAnalysis/
+│
+├── app/
+│   └── streamlit_app.py          # Interactive web UI
+│
+├── models/
+│   ├── logistic_model.pkl        # Best performing ML model
+│   ├── tfidf_vectorizer.pkl      # Saved text vectorizer
+│   ├── tokenizer.pkl             # Deep learning tokenizer
+│   └── lstm_sentiment.keras      # Saved LSTM model
+│
+├── notebooks/
+│   └── sentiment_analysis.ipynb  # Full EDA, preprocessing, and training pipeline
+│
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
